@@ -1,0 +1,4 @@
+*.exe
+debug
+log.d/
+main
