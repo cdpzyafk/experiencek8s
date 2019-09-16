@@ -33,3 +33,10 @@ minikube dashboard # 在浏览器中打开dashboard
 
 ## minikube架构说明
 
+下面是从[云栖社区](https://yq.aliyun.com/articles/221687)找到的一张架构图
+![minikube-architecture](minikube-architecture.jpeg)
+
+1. minikube生成kubeconfig文件
+2. minikube生成minikube虚拟机
+3. minikube在虚拟机里面创建kubernetes
+4. kubectl使用kubernetes来进行各种操作
