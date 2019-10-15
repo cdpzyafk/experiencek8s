@@ -4,7 +4,7 @@
 
 1. simpleweb
 2. 创建一个Dockerfile
-3. ```cd simpleweb; docker build -t simpleweb:0.0.1 .```
+3. `cd simpleweb; docker build -t simpleweb:0.0.1 .`
 
 ## minikube创建集群
 
@@ -29,6 +29,11 @@ minikube status
 #minikubeVM: Running
 #localkube: Running
 minikube dashboard # 在浏览器中打开dashboard
+```
+
+
+```shell
+kubectl edit deployment xxxxxx
 ```
 
 ## minikube架构说明
